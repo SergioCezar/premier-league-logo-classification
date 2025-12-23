@@ -99,7 +99,7 @@ pip install -r requirements.txt
 The full scientific report describing the methodology, experiments, and results
 is available in:
 
-report/scientific_article.pdf
+scientific_article/article.pdf
 
 ---
 
