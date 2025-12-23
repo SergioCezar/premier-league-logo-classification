@@ -31,9 +31,37 @@ which club the logo belongs to among 20 possible teams.
 
 ## Dataset
 
-- 20 Premier League teams
+The dataset was specifically designed to evaluate model robustness in Domain Adaptation—moving 
+from controlled environments to noisy, real-world scenarios. 
+It consists of 3,000 images distributed across 20 classes (Premier League clubs).
 - Images organized by class (one folder per team)
 - Dataset stored externally (Google Drive)
+
+### Data Distribution
+To ensure a fair evaluation and prevent class bias, the dataset is perfectly balanced:
+
+Classes: 20 teams.
+
+Samples per Class: 150 images.
+
+Total Dataset Size: 3,000 images.
+
+### Image Profiles
+Each class is composed of two distinct subsets to simulate different levels of difficulty:
+
+1. Synthetic & Augmented (Controlled):
+
+High-contrast logos on neutral backgrounds.
+
+Subjects subjected to geometric distortions (rotation, scaling, shearing) to teach the model geometric invariance.
+
+2. Real-World / "In-the-Wild" (Noisy):
+
+Apparel: Logos on player kits and training gear, featuring fabric deformations and wrinkles.
+
+Fan Merchandise: Scarves, hats, and flags held by supporters.
+
+Contextual Noise: Logos captured in stadium environments with variable lighting, motion blur, and partial occlusions.
 
 > ⚠️ The dataset is not included in this repository due to size constraints.
 
