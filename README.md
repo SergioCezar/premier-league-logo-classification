@@ -40,22 +40,22 @@ It consists of 3,000 images distributed across 20 classes (Premier League clubs)
 ### Data Distribution
 To ensure a fair evaluation and prevent class bias, the dataset is perfectly balanced:
 
-Classes: 20 teams.
+- Classes: 20 teams.
 
-Samples per Class: 150 images.
+- Samples per Class: 150 images.
 
-Total Dataset Size: 3,000 images.
+- Total Dataset Size: 3,000 images.
 
 ### Image Profiles
 Each class is composed of two distinct subsets to simulate different levels of difficulty:
 
-1. Synthetic & Augmented (Controlled):
+#### 1. Synthetic:
 
 High-contrast logos on neutral backgrounds.
 
 Subjects subjected to geometric distortions (rotation, scaling, shearing) to teach the model geometric invariance.
 
-2. Real-World / "In-the-Wild" (Noisy):
+#### 2. Real-World:
 
 Apparel: Logos on player kits and training gear, featuring fabric deformations and wrinkles.
 
