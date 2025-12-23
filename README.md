@@ -60,21 +60,6 @@ which club the logo belongs to among 20 possible teams.
 
 ---
 
-## Results
-
-- High validation accuracy across most teams
-- Confusion matrix highlights visually similar logos
-- Detailed metrics reported in the accompanying article
-
----
-
-## Scientific Article
-
-The full scientific report describing the methodology, experiments, and results
-is available in:
-
-report/scientific_article.pdf
-
 ## Technologies
 
 - Python
@@ -91,6 +76,32 @@ report/scientific_article.pdf
 
 - Scikit-learn
 
+---
+
+### Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Results
+
+- High validation accuracy across most teams
+- Confusion matrix highlights visually similar logos
+- Detailed metrics reported in the accompanying article
+
+---
+
+## Scientific Article
+
+The full scientific report describing the methodology, experiments, and results
+is available in:
+
+report/scientific_article.pdf
+
+---
 
 ## License
 This project is licensed under the MIT License.
